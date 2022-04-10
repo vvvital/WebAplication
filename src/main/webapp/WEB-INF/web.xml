@@ -11,7 +11,6 @@
         <servlet-name>JSP Servlet</servlet-name>
         <url-pattern>/jsp</url-pattern>
     </servlet-mapping>
-    
     <servlet>
         <servlet-name>Hello Servlet</servlet-name>
         <servlet-class>com.vvvital.webaplication.HelloServlet</servlet-class>
@@ -20,7 +19,30 @@
         <servlet-name>Hello Servlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
-    
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>com.vvvital.webaplication.SetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/set</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>com.vvvital.webaplication.GetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/get</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteCoodiesServlet</servlet-name>
+        <servlet-class>com.vvvital.webaplication.DeleteCoodiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCoodiesServlet</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>
